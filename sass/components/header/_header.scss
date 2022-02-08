@@ -1,0 +1,17 @@
+.header {
+  border-bottom: 1px solid #ececec;
+  background-color: $secondary-accent-color;
+}
+.header__container {
+   @extend %centeredFlex;
+}
+.header__logo  {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+}
+
+
+.site-nav {
+  @extend %centeredFlex;
+}

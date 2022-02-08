@@ -1,0 +1,38 @@
+.footer {
+  background-color: $footer-background;
+  padding: 60px 0;
+}
+.footer__logo {
+  color: $secondary-accent-color;
+  margin-bottom: 20px;
+}
+
+.footer__address {
+  margin-right: 70px;
+}
+.address__list {
+  @extend %list;
+}
+
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.address__link {
+  @extend %link;
+
+  &:hover,
+  &:focus {
+    @extend %link-action;
+  }
+}
+
+.footer__text {
+  margin-bottom: 20px;
+  color: $secondary-accent-color;
+  font-weight: 700;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+.footer__subscribe {
+  flex-grow: 1;
+}

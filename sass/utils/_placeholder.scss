@@ -1,0 +1,29 @@
+%link {
+  text-decoration: none;
+  color: inherit;
+}
+%link-action {
+   color: $primary-accent-color;
+}
+%list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+%centeredFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%box{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: $margin-collapse;
+  margin-top:  $margin-collapse;
+}
+%box-item{
+  margin-left: $margin;
+  margin-top: $margin;
+}

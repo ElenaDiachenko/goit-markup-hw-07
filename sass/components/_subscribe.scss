@@ -1,0 +1,33 @@
+.subscribe {
+  display: flex;
+  align-items: stretch;
+  flex-grow: 1;
+}
+
+.subscribe__field {
+  flex-grow: 1;
+  outline: none;
+  padding-left: 16px;
+  color: $secondary-accent-color;
+  background-color: $footer-background;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  &::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+}
+}
+.subscribe__button {
+  @extend %centeredFlex;
+  margin-left: 12px;
+}
+
+.subscribe__icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  fill: $secondary-accent-color;
+}

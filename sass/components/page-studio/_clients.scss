@@ -1,0 +1,40 @@
+.section__clients {
+  padding-bottom: 94px;
+}
+.clients {
+ @extend %list;
+}
+.clients__item {
+  flex-basis: calc(100% / 6 - 30px);
+}
+.client__link {
+ @extend %centeredFlex;
+  padding: 15px 30px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
+  color: $icon-color;
+
+  transition: border $transition-value, color $transition-value;
+
+  &:hover,
+&:focus {
+  border: 1px solid $primary-accent-color;
+  color: $primary-accent-color;
+}
+
+}
+
+
+
+.client__icon {
+  width: 106px;
+  height: 60px;
+  fill: currentColor;
+  transition: fill $transition-value;
+
+.client__link:hover &,
+.client__link:focus & {
+  fill: currentColor;
+}
+}
+

@@ -1,0 +1,32 @@
+.filter__list {
+  @extend %centeredFlex;
+  margin-bottom: 50px;
+  @extend %list;
+}
+
+.filter__item:not(:last-child) {
+  margin-right: 8px;
+}
+.filter__button {
+  padding: 6px 22px;
+  color: $secondary-text-color;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  background-color: $secondary-background;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: none;
+
+  transition: background-color $transition-value,
+    color $transition-value, box-shadow $transition-value;
+
+      &:hover,
+      &:focus {
+    color: $secondary-accent-color;
+    background-color: $primary-accent-color;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08),
+      0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+   }
+}

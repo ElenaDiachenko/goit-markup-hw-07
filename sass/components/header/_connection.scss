@@ -1,0 +1,31 @@
+.connection {
+  @extend %centeredFlex;
+  @extend %list;
+  margin-left: auto;
+}
+.connection__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.connection__link {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: $primary-text-color;
+  font-weight: 500;
+  line-height: 1.14;
+
+  transition: color $transition-value;
+  @extend %link;
+
+   &:hover,
+   &:focus{
+  @extend %link-action;
+  }
+
+}
+.connection__icon {
+   margin-right: 10px;
+   fill: currentColor;
+}
