@@ -4,7 +4,8 @@
 }
 
 .card {
-  flex-basis: calc(100% / 3 -30px);
+  flex-basis: calc(100% / 3 - 30px);
+  border-bottom: 1px solid #EEEEEE;
 }
 .card__link {
 @extend %link;

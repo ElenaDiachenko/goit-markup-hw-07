@@ -29,7 +29,7 @@
 .nav__link--active::after {
   position: absolute;
   left: 0;
-  top: calc(100% - 1px);
+  top: calc(100% - 3px);
   content: '';
   display: block;
   width: 100%;

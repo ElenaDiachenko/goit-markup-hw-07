@@ -172,7 +172,7 @@ body {
 .nav__link--active::after {
   position: absolute;
   left: 0;
-  top: calc(100% - 1px);
+  top: calc(100% - 3px);
   content: "";
   display: block;
   width: 100%;
@@ -356,9 +356,6 @@ body {
 .social__link--footer {
   background-color: rgba(255, 255, 255, 0.1);
 }
-.social__link--footer :hover, .social__link--footer :focus {
-  background-color: #2196f3;
-}
 
 .section__clients {
   padding-bottom: 94px;
@@ -396,6 +393,7 @@ body {
 .footer {
   background-color: #2f303a;
   padding: 60px 0;
+  color: #ffffff;
 }
 
 .footer__logo {
