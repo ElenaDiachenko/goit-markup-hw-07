@@ -3,7 +3,7 @@
   background-color: $secondary-background;
 }
 .team {
- @extend %list;
+  @extend %list;
 }
 .team__item {
   flex-basis: calc(100% / 4 - 30px);
@@ -26,4 +26,5 @@
   margin-top: $margin;
   margin-bottom: $margin;
   text-align: center;
+  background-color: $secondary-accent-color;
 }
